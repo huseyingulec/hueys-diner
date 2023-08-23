@@ -1,0 +1,176 @@
+.container {
+    margin: 100px auto;
+    max-width: 50%;
+}
+
+
+header {
+    text-align: center;
+    background-color: #036d68d8;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.item-icon {
+    font-size: 100px;
+    width: 160px;
+}
+
+.item-icon p {
+    margin: 0;
+}
+
+.item-info {
+    margin-right: auto;
+    padding: 20px;
+}
+
+.add-button{
+    background-color: rgb(221, 191, 191);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    color: black;
+    font-size: 15px;
+    margin-right: 50px;
+    padding: 15px;
+}
+
+.checkout {
+   /*  position: fixed;
+    bottom: 0; */
+    text-align: center;
+    background-color: rgba(0, 95, 59, 0.692);
+    border: 1px solid black;
+    border-radius: 0 0 20px 20px;
+    color: rgb(0, 0, 0);
+   /*  width: 50%; */
+    /* display: none;  */
+
+}
+
+.checkout h1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.checkout hr {
+    margin: 0 50px;
+
+}
+
+.checkout-item {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.checkout-item a {
+    font-size: 15px;
+    color: rgb(48, 47, 47);
+    padding-left: 15px;
+}
+
+.checkout-item .item-piece {
+    margin-left: auto;
+}
+.checkout-price {
+    padding-left: 15px;
+}
+
+.checkout-total, .discount, .tax {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 50px 0 50px;
+    line-height: 0;
+
+}
+
+.checkout-total h3, .discount h3, .tax h3 {
+    margin-left: auto;
+}
+
+.complete-btn {
+    background-color: rgb(1, 75, 39);
+    width: 50%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+
+.payment {
+    display: inline;      /* payment.style.display = inline  */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 50vh;
+    width: 35vw;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #212529;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.payment h1 {
+    font-size: 45px;
+}
+
+input {
+    width: 90%;
+    font-size: 35px;
+    margin: 10px;
+}
+
+form button {
+    width: 80%;
+    font-size: 35px;
+    margin: 30px;
+    border-radius: 5px;
+    background-color: rgb(1, 75, 39);
+}
+
+/* input type number arrow removed */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+
+}
+
+
+.hidden {
+    display: none;
+}
+
+.remove-btn {
+    cursor:pointer;
+}
+
+.loading-txt, .confirmation-txt {
+    margin: 60px;
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lan="eng">
+    <head>
+        <title>Huey's burger</title>
+        <link rel="stylesheet" href="index.css">
+
+    </head>
+    <body>
+        <section class="container">
+                        <header>
+                            <h1>Huey's diner</h1>
+                            <h5>The best burger in town.</h5>
+                        </header>
+                        <section class="menu" id="menu">
+                        </section>           
+
+                    <section class="checkout hidden" id="checkout">
+                        <h1>Your order</h1>
+                        <div id="order">
+                        </div>
+                        <hr>
+                        
+                        <div class="discount">
+                            <h1>25% Discount over 25$</h1> 
+                            <h3 id="discount"></h3>
+                        </div>
+                        <div class="tax">
+                            <h1>Tax 30%</h1>
+                            <h3 id="tax-value"></h3>
+                        </div>
+                        <div class="checkout-total">
+                            <h1>Total Price:</h1>
+                            <h3 class="total-price" id="total-price" ></h3>
+                        </div>
+                        <button class="complete-btn" data-complete="complete">Complete Order</button>
+                    </section>
+                    <section class="payment hidden" id="payment">
+                        <h1>Enter card details</h1>
+                    <form>
+                        <input type="text" id="full-name" name="fullName" placeholder="Enter your full name" required/>
+                        <input type="password" name="ccNumber" placeholder="Enter card number" required/>
+                        <input type="number" name="cvvNumber" placeholder="Enter CVV" required/>
+                        <button class="pay-btn" data-pay="pay" type="submit">Pay</button>
+                    </form>
+                    
+                </section>
+                    
+                </section>
+            <script src="index.js" type="module"></script>
+        </section>
+    </body>
+</html>
